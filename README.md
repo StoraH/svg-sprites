@@ -1,25 +1,13 @@
 # SVG Sprites with fallback
-## Thing you need
-1. NodeJS
-2. Grunt
-3. dr-grunt-svg-sprites
+## Things you need
+[NodeJS](http://nodejs.org), that's it!
 
-## Installing the stuff
+## Usage
 
-### Install NodeJS
-Go to [http://nodejs.org/](http://nodejs.org/) and follow the instructions 
+Run ``npm install`` to install all node modules we need. Then run ``grunt`` and you'll get all the sprites the world ever have needed.
 
-### Add grunt
-Add grunt as a dependencies in your project
+[grunt documentation](http://gruntjs.com/getting-started)
 
-``npm install grunt-cli --save-dev``
-
-Need help? [http://gruntjs.com/getting-started](http://gruntjs.com/getting-started)
-### Install dr-grunt-svg-sprites
-
-``npm install dr-grunt-svg-sprites --save-dev``
-
-Need help?  [https://www.npmjs.org/package/dr-grunt-svg-sprites](https://www.npmjs.org/package/dr-grunt-svg-sprites)
-
+[dr-grunt-svg-sprites documentetion](https://www.npmjs.org/package/dr-grunt-svg-sprites) (the thing that make all the stuff)
 ## Preparing the SVG
-The SVG files needs to have the right width and height for the sprites to be generated properly.
+The SVG files needs to have width and height specified in the svg tag for the sprites to be generated properly.
