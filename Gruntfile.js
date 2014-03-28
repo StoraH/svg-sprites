@@ -13,9 +13,9 @@ module.exports = function(grunt) {
                 prefix: "icon",
                 cssPrefix: '',
                 sizes: {
-                    large: 32
+                    large: 128
                 },
-                refSize: 32
+                refSize: 128
             }
           }
       },
