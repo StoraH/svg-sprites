@@ -10,6 +10,8 @@ module.exports = function(grunt) {
           },
           shapes: {
             options: {
+                prefix: "icon",
+                cssPrefix: '',
                 sizes: {
                     large: 32
                 },
