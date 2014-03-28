@@ -1,0 +1,8 @@
+{
+  "name": "svg-sprites",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "dr-grunt-svg-sprites": "~0.5.4"
+  }
+}
